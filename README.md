@@ -5,7 +5,13 @@ Hibernate sample
 
 
 ### References
-> [Hibernate(í•˜ì´ë²„ë„¤ì´íŠ¸) ORM ì‹œìž‘ , ì˜ˆì œ](http://onecellboy.tistory.com/349 "")  
+> [HIBERNATE](http://hibernate.org/orm/ "HIBERNATE")  
+> [Hibernate(ÇÏÀÌ¹ö³×ÀÌÆ®) ORM ½ÃÀÛ , ¿¹Á¦](http://onecellboy.tistory.com/349 "")  
+> []( "")  
+> []( "")  
+> []( "")  
+> []( "")  
+> []( "")  
 .....
 
 
