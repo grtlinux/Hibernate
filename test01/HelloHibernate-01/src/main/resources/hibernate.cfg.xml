@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration>
+<hibernate-configuration>
+	<session-factory>
+		<!-- SQL Dialect -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<!-- Database Connection Settings -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://192.168.1.23:3306/tain</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">toor</property>
+		<property name="show_sql">true</property>
+
+		<!-- Specifying Session Context -->
+		<property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+
+		<!-- Mapping With Model Class Containing Annotations -->
+		<mapping class="org.tain.hibernate.test.User" />
+	</session-factory>
+</hibernate-configuration>
