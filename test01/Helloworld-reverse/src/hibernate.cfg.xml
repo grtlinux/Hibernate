@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration>
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
+        <property name="hibernate.connection.url">jdbc:hsqldb:hsql://localhost</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+        <mapping class="hello.Message" />
+    </session-factory>
+</hibernate-configuration>
